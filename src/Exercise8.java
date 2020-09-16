@@ -13,7 +13,7 @@ public class Exercise8 {
 		System.out.printf("%-9s: ", "Capacity");
 		int cap = s.nextInt();
 
-		int buses = (students+teachers)/cap + 1;
+		int buses = (students+teachers)/cap + ((students+teachers)%cap != 0);
 		int overflow = (int) ((students+teachers)%cap);
 		
 		System.out.printf("%n%-20s: %d", "Buses required", buses);
