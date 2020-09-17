@@ -2,9 +2,7 @@
 public class Exercise1 {
 	
 	public static void main(String[] args) {
-		System.out.println("H\sE\sL\sL\sO\n"
-				+ "E\s\s\s\s\s\s\sA\nL\s\s\s\s\s\s\sP\nL\s\s\s\s\s\s\sC\n"
-				+ "O\sA\sP\sC\sS");
+		System.out.printf("%-9s\n%-8sA\n%-8sP\n%-8sC\n%-9s", "H E L L O", "E", "L", "L", "O A P C S");
 	}
 
 }
