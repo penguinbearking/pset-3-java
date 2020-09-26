@@ -13,18 +13,13 @@ public class Exercise8 {
 		System.out.printf("%-9s: ", "Capacity");
 		int cap = s.nextInt();
 		
-		double totalPeople = students+teachers;
+		int totalPeople = students+teachers;
 
-		double buses = totalPeople / (double)cap;
-        double overflow = (cap * ((((totalPeople - .5) % cap) + .5) / (double)cap)) + .0000000001;
-
-
-        buses += ((((cap - (int) overflow) % cap) / (double)cap));
-        buses = (int)(buses);
-        overflow = (int)(overflow);
+		int buses = (totalPeople+cap-1)/cap;
+		int overflow = totalPeople%cap;
 		
-		System.out.printf("%n%-20s: %d", "Buses required", (int)buses);
-		System.out.printf("%n%-20s: %d", "Overflow passengers", (int)overflow);
+		System.out.printf("%n%-20s: %d", "Buses required", buses);
+		System.out.printf("%n%-20s: %d", "Overflow passengers", overflow);
 		
 	}
 
