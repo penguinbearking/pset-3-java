@@ -8,7 +8,7 @@ public class Exercise4 {
 		
 		System.out.print("Height : ");
 		double h = s.nextDouble();
-		System.out.print("Width : ");
+		System.out.print("Width  : ");
 		double w = s.nextDouble();
 		
 		h *= 2.54;
@@ -18,6 +18,7 @@ public class Exercise4 {
 		
 		System.out.printf("%n%,.2f centimeters.", p);
 		
+		s.close();
 	}
 
 }

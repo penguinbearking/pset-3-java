@@ -12,9 +12,10 @@ public class Exercise10 {
 		double c = (f-32)*5/9;
 		double k = c+273.15;
 		
-		System.out.printf("%n%-11s: %,.2f", "Celsius", c);
-		System.out.printf("%n%-11s: %,.2f", "Kelvin", k);
+		System.out.printf("%n%-8s: %,.2f", "Celsius", c);
+		System.out.printf("%n%-8s: %,.2f", "Kelvin", k);
 		
+		s.close();
 	}
 	
 }

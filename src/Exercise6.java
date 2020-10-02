@@ -27,7 +27,7 @@ public class Exercise6 {
 		
 		System.out.printf("%n$%,.2f.", total);
 		
-		
+		s.close();
 	}
 	
 }

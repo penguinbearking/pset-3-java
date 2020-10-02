@@ -21,6 +21,7 @@ public class Exercise8 {
 		System.out.printf("%n%-20s: %d", "Buses required", buses);
 		System.out.printf("%n%-20s: %d", "Overflow passengers", overflow);
 		
+		s.close();
 	}
 
 }

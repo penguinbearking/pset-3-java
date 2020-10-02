@@ -8,7 +8,7 @@ public class Exercise3 {
 		
 		System.out.print("Height : ");
 		double h = s.nextDouble();
-		System.out.print("Weight : ");
+		System.out.print("Width  : ");
 		double w = s.nextDouble();
 		
 		h *= 25.4;
@@ -17,6 +17,8 @@ public class Exercise3 {
 		double a = h*w;
 		
 		System.out.printf("%n%,.2f square millimeters.", a);
+		
+		s.close();
 		
 	}
 

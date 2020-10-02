@@ -18,6 +18,8 @@ public class Exercise7 {
 		double paycheck = (salary * (1-k401/100) * (1-(state+federal)/100))/24;
 		
 		System.out.printf("%n$%,.2f.", paycheck);
+		
+		s.close();
 	}
 
 }

@@ -5,7 +5,7 @@ public class Exercise9 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		
-		System.out.printf("%-9s: ", "Amount");
+		System.out.printf("%-7s: ", "Amount");
 		double a = s.nextDouble();
 		
 		int q = (int) ((a-a%0.25)/0.25);
@@ -24,7 +24,7 @@ public class Exercise9 {
 		System.out.printf("%n%-9s: %d", "Pennies", p);
 		
 		
-		
+		s.close();
 	}
 	
 }

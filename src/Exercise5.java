@@ -6,7 +6,7 @@ public class Exercise5 {
 		
 		Scanner s = new Scanner(System.in);
 		
-		System.out.printf("%-11s: ","Homework");
+		System.out.printf("%-11s: ", "Homework 1");
 		double h1 = s.nextInt();
 		System.out.printf("%-11s: ", "Homework 2");
 		double h2 = s.nextInt();
@@ -25,6 +25,8 @@ public class Exercise5 {
 		double g = (h*.15+q*.35+t1*.5);
 				
 		System.out.printf("%n%.2f%%.", g);
+		
+		s.close();
 	}
 
 }
